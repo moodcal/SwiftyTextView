@@ -52,7 +52,7 @@ public class SwiftyTextView: UITextView {
     private var placeHolderTextLayer: CATextLayer!
     private var countdownTextLayer: CATextLayer!
     
-    public weak var textDelegate: SwiftyTextViewDelegate?
+    @objc public weak var textDelegate: SwiftyTextViewDelegate?
     
     public override var text: String! {
         // boilerplate code needed to make watchers work properly:
